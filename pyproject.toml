@@ -7,7 +7,13 @@ authors = [
     { name = "Jay24-coder", email = "parmarjay905@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.142.2",
+    "openai>=3.24.0",
+    "pydantic>=2.13.5",
+    "pydantic-settings>=2.15.0",
+    "uvicorn>=0.54.0",
+]
 
 [project.scripts]
 chatbot = "chatbot:main"
