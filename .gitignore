@@ -1,0 +1,12 @@
+# Virutal Environment
+.venv/
+
+# Environment Variables
+.env
+
+# Logs
+logs/
+
+# Database
+db.sqlite3
+
